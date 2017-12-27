@@ -1,8 +1,4 @@
 
-# coding: utf-8
-
-# In[16]:
-
 import numpy as np # import numpy library as np
 import matplotlib.pyplot as plt # import pyplot library as plt 
 from mpl_toolkits.mplot3d import Axes3D # import Axes3D from `mpl_toolkits.mplot3d`
