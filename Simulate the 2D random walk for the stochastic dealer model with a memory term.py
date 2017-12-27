@@ -1,8 +1,4 @@
 
-# coding: utf-8
-
-# In[2]:
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -40,7 +36,7 @@ def plot5(ax, dvalues, labels):
     ax.set_xlim([-0.02, 0.02])
     ax.legend(loc=4,framealpha=0.8)
     
-get_ipython().magic('matplotlib inline')
+%matplotlib inline
 fig, ax = plt.subplots(figsize=(7.5,7.5))
 plot5(ax, [-2.0,-1.0,0.0,1.0,2.0], [r'$d = -2$',r'$d = -1$',r'$d = 0$',r'$d = +1$',r'$d = +2$'])
 ax.set_xlim([-0.020,0.020])
