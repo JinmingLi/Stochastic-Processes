@@ -1,8 +1,4 @@
 
-# coding: utf-8
-
-# In[ ]:
-
 import numpy as np
 import numpy as np
 import pandas as pd
@@ -45,7 +41,7 @@ def plot6(ax,g1,g16):
     ax.set_xlabel(r'Absolute normalized price return $|G_1|$')
     ax.set_ylabel(r'Probability density')
     
-get_ipython().magic('matplotlib inline')
+%matplotlib inline
 fig, ax = plt.subplots(figsize=(15,7.5))
 g1,g2 = problem6(1,16)
 plot6(ax, g1, g2)
