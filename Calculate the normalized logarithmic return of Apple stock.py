@@ -1,8 +1,4 @@
 
-# coding: utf-8
-
-# In[2]:
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -40,7 +36,7 @@ def plot1(ax, data, cols, labels):
     ax.set_xlabel('Normalized price return $G_n(t)$')
     ax.set_ylabel('Probability Distribution')
     
-get_ipython().magic('matplotlib inline')
+%matplotlib inline
 cols,taus = ['G30','G90','G180'], [30,90,180]
 apple = problem1(cols, taus)
 
