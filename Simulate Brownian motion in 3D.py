@@ -1,9 +1,4 @@
-
-# coding: utf-8
-
-# In[2]:
-
-get_ipython().magic('matplotlib nbagg')
+% matplotlib nbagg 
 import numpy as np # import numpy library as np
 import matplotlib.pyplot as plt # import pyplot library as plt 
 import matplotlib.mlab as mlab # import mlab module to use MATLAB commands with the same names
